@@ -61,3 +61,4 @@ useEffect(()=>{
 }
 
 export default Tours
+

@@ -117,7 +117,7 @@ const tours = [
     desc: "this is the description",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Amrit Nadh",
         rating: 4.6,
       },
     ],

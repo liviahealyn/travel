@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/home.css'
 import { Container,Row,Col } from 'reactstrap'
-import worldImg from '../assets/images/world.png'
+
 import heroImg from '../assets/images/hero-img01.jpg'
 import heroImg02 from '../assets/images/hero-img02.jpg'
 import heroVideo from '../assets/images/hero-video.mp4'
@@ -22,13 +22,15 @@ const Home = () => {
         <Col  lg="6">
         <div className="hero__content">
           <div className="hero__subtitle d-flex align-items-center">
-            <Subtitle subtitle={'Know Before You Go'}/>
-            <img src={worldImg} alt="" />
+            
+        
           </div>
+          <h7> <i>Discover the best destinations in the world...</i> </h7>
+
           <h1><b>MAKE YOUR HASSLE FREE VACATION PLANS NOW!</b> <span className="highlight">
 
   </span></h1>
-         <h5> <i>Discover the best destinations in the world...</i> </h5>
+         
 
           
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ut voluptatum quisquam error facilis eum rerum, ratione accusamus molestias fugiat consequatur repellendus pariatur numquam ea dolor! Eligendi sunt ab nostrum?</p>

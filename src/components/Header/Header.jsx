@@ -14,8 +14,8 @@ const nav__links=[
     display:'About'
   },
   {
-    path:'/packages',
-    display:'Packages'
+    path:'/Tours',
+    display:'Tours'
   },
   
 
